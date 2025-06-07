@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "SIGMA-MD~69IkiIxB#uSUo-ZLIY0IO5tBcU6GOJaNn-P2faPITdoIhI9OfPZs",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -37,7 +37,7 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/iw9ar0.jpg",
 // add img for alive msg
 MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/iw9ar0.jpg",
 // menu image 
-WELCOME_ENABLED: process.env.WELCOME_ENABLED || "true",
+WELCOME_ENABLED: process.env.WELCOME_ENABLED || "false",
     // welcome group members 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
@@ -57,7 +57,7 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
